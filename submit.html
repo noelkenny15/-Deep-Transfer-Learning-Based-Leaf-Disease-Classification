@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/index">AI Engine</a></li>
+        <li class="nav-item"><a class="nav-link" href="/market">Supplements</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact-Us</a></li>
+    </ul>
+</nav>
+
+<div class="container mt-5">
+    <h2 class="text-center">Prediction Result</h2>
+    <div class="text-center">
+        <h3>{{ title }}</h3>
+        <img src="{{ image_url }}" alt="{{ title }}" class="img-fluid">
+        <p><strong>Description:</strong> {{ desc }}</p>
+        <p><strong>Prevention Steps:</strong> {{ prevent }}</p>
+        <p><strong>Recommended Supplement:</strong> {{ sname }}</p>
+        <img src="{{ simage }}" alt="{{ sname }}" class="img-fluid">
+        <p><a href="{{ buy_link }}" class="btn btn-primary">Buy Now</a></p>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
