@@ -7,7 +7,14 @@ Mobile Net for Disease Prediction
 ## Usage:
 To use the model for leaf disease detection, follow these steps:
 - Make sure you have a Python environment set up with the necessary libraries installed. You can use the provided requirements.txt file to set up the required dependencies.
-  pip install -r requirements.txt
-- Run main.py:
-  streamlit run main.py
+- Run main.py
+  
 ## Algorithm:
+- Import Required Libraries
+- Load disease information from a CSV file into a DataFrame
+- Load the Pre-trained CNN Model
+- Define Prediction Function
+- Initialize Flask Application
+- Run the Application
+- Define CNN Model Class
+- Create a Mapping of Class Indices to Disease Names
