@@ -18,3 +18,11 @@ To use the model for leaf disease detection, follow these steps:
 - Run the Application
 - Define CNN Model Class
 - Create a Mapping of Class Indices to Disease Names
+
+## Requirements:
+- numpy
+- torch
+- torchvision
+- pandas
+- flask
+- CNN
