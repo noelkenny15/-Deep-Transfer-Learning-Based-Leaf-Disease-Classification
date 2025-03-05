@@ -8,7 +8,7 @@ Mobile Net for Disease Prediction
 To use the model for leaf disease detection, follow these steps:
 - Make sure you have a Python environment set up with the necessary libraries installed. 
 - Run main.py
-- 
+
 ## Algorithm:
 - Import Required Libraries
 - Load disease information from a CSV file into a DataFrame
